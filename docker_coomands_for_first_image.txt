@@ -1,0 +1,8 @@
+# Will create an image from the Dockerfile
+docker build -t first_image:latest .
+
+# Creating a container from the image
+
+docker run --name first_application -p 8082:8070 first_image
+
+
